@@ -1,0 +1,13 @@
+main {
+    max-width: 1500px;
+    margin: auto;
+}
+
+footer {
+    border: 1px solid black;
+}
+
+footer p, footer a {
+    font-size: 25px;
+}
+
