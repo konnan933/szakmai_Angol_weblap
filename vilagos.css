@@ -4,10 +4,73 @@ main {
 }
 
 footer {
-    border: 1px solid black;
+    text-align: center;
+    
+}
+
+article, aside {
+    margin: 10px;
 }
 
 footer p, footer a {
     font-size: 25px;
 }
+
+.keszitok a {
+    text-decoration: none;
+    color: white;
+}
+
+footer img {
+    width: 300px;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer a {
+    font-size: 20px;
+}
+
+.foKozep p, .BP a, .DA a {
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.keszitok {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    border: 1px solid black;
+    background-color: rgb(67, 67, 67);
+    color: white;
+
+}
+
+.pkepek {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pleirasok {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.BP, .DA, .foKozep {
+    display: grid;
+}
+
+
+
+
+
+
+
 
