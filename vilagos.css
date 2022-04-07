@@ -1,18 +1,26 @@
-main {
+body {
+    background-image: url("kepek/hatter.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+/*main {
     max-width: 1500px;
     margin: auto;
-}
+    background-color: white;
+}*/
 
 footer {
     text-align: center;
-    
+    background-color: white;
+
 }
 
-article, aside {
-    margin: 10px;
-}
 
-footer p, footer a {
+footer p,
+footer a {
     font-size: 25px;
 }
 
@@ -33,7 +41,9 @@ footer a {
     font-size: 20px;
 }
 
-.foKozep p, .BP a, .DA a {
+.foKozep p,
+.BP a,
+.DA a {
     padding: 0px;
     margin-top: 15px;
 }
@@ -44,10 +54,10 @@ footer a {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1000px;
     border: 1px solid black;
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(33, 33, 33);
     color: white;
+    padding: 15px;
 
 }
 
@@ -55,6 +65,11 @@ footer a {
     width: 100%;
     display: flex;
     justify-content: space-around;
+
+}
+
+.pkepek img {
+    border-radius: 50%;
 }
 
 .pleirasok {
@@ -63,14 +78,19 @@ footer a {
     justify-content: space-around;
 }
 
-.BP, .DA, .foKozep {
+.BP,
+.DA,
+.foKozep {
     display: grid;
 }
 
+.cim {
+    background-color: rgba(245, 96, 21);
 
+}
 
-
-
-
-
-
+.tartalom {
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+}
