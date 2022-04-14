@@ -6,10 +6,9 @@ body {
 main {
   margin: auto;
   border: 1px black solid;
-  max-width: 1200px;
 }
 #hatter {
-  height: 600px;
+  height: 900px;
   width: 100%;
   background-image: url("kepek/kep_1.jpg");
   background-size: cover;
@@ -30,7 +29,9 @@ nav {
   padding: 0px;
   opacity: 0.85;
 }
-
+ul {
+  list-style-type: none;
+}
 nav ul {
   margin: auto;
   list-style-type: none;
@@ -67,4 +68,37 @@ nav a {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.bemutato {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 90%;
+  padding-top: 10px;
+}
+
+.bElemek {
+  border: black solid 1px;
+  width: 23%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.bElemek:hover {
+  background-color: #706868;
+  transition: 900ms;
+}
+.bElemek p {
+  transition: 650ms;
+}
+.bElemek:hover p {
+  font-size: 50px;
+  color: #fa9c1e;
+  transition: 800ms;
 }
